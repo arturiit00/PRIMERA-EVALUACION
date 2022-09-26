@@ -1,1 +1,11 @@
 print "Este es mi primer programa, de locos"
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Mi primer programa")
+a= "Hola"
+b= " Arturo:)"
+print(a+b)
+a=3
+b=5
+c=b-a
+print(c)
