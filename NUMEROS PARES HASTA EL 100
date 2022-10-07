@@ -1,9 +1,9 @@
 # Otro programa mas con bucles
-#cuenta atras
-def cuenta_atras():
+#suma de numeros pares hasta el 100
+def pares():
     for cont in range(0,101,2):
         print(cont)
         print("ES PAR")   
     print("Estos son los numero pares hata el 100")
     
-cuenta_atras()
+pares()
