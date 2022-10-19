@@ -1,0 +1,11 @@
+# Un banco que te pide ingresas una cantidad de dinero
+#para luego preguntarte si quieres sacar dinero
+#y la cantidad deseada a dejar o sacar
+def banco():
+    dinero=int(input("Ingresa una cantidad de dinero: "))
+    seguir=True
+    while(seguir==True):
+        billetes=int(input("¿Qué cantidad quieres sacar?: "))
+        print("Has sacado "+ (billetes))
+
+banco()
