@@ -4,8 +4,11 @@
 def banco():
     dinero=int(input("Ingresa una cantidad de dinero: "))
     seguir=True
-    while(seguir==True):
-        billetes=int(input("¿Qué cantidad quieres sacar?: "))
-        print("Has sacado "+ (billetes))
+    persona=int(input("Quieres sacar o meter dinero: "))
+    if (persona=="S"):
+        billetes=int(input("Cuanto dinero quieres sacar: "))
+        resta=dinero - billetes
+    if (persona=="M"):
+        
 
 banco()
