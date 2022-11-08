@@ -1,0 +1,8 @@
+def DNI():
+    dni=int(input("Dame tu dni: "))
+    resto=dni%23
+    print(resto)
+    letra=input("Dame una letra: ")
+    
+    
+DNI()
