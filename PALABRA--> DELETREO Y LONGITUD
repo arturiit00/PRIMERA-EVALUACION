@@ -1,7 +1,8 @@
-#Pide una palabra y te devuelve sus letras
+#Pide una palabra y te devuelve sus letras y longitud
 def deletreo():
     palabra=input("Dime una palabra: ")
     for cont in range(0,len(palabra)):
         print(palabra[cont]+ ' ')
-   
+    print("Tiene "+str(cont+1)+" letras")
+    
 deletreo()
