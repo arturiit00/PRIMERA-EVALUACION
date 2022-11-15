@@ -3,11 +3,12 @@ def comprobacion_contraseña():
     nueva_contraseña=0
     nueva_contraseña=input("Crea contraseña: ")
     print("Contraseña guardada")
-    contraseña=input("Introduce contraseña: ")
-    if(contraseña==nueva_contraseña):
-        print("Contraseña correcta, bienvenido")
-    else:
-        print("Contraseña incorrecta")
+    for cont in range(0,21):
+        contraseña=input("Introduce contraseña: ")
+        if(contraseña==nueva_contraseña):
+            print("Contraseña correcta, bienvenido")
+        else:
+            print("Contraseña incorrecta")
     
         
 comprobacion_contraseña()
